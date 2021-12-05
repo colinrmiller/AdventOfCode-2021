@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Linq;
 using System.IO;
 
-namespace advent_2016
+namespace Advent2022
 {
     class Day01
     {
