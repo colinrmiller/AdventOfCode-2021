@@ -4,6 +4,20 @@ namespace Advent2022
 {
     public class Tools
     {
+        public static List<string> PrintBoard(List<List<int>> board)
+        {
+            List<string> ss = new List<string> { };
+            for (int i = 0; i < board.Count; i++)
+            {
+                string s = "";
+                for (int j = 0; j < board[i].Count; j++)
+                {
+                    s += board[i][j];
+                }
+                ss.Add(s);
+            }
+            return ss;
+        }
         public static int ParseBin(string binString)
         {
             int val = 0;

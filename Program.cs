@@ -14,9 +14,9 @@ namespace Advent2022
             // Day06.run();
             // Day07.run();
             // Day08.run();
-            Day09.run();
+            // Day09.run();
             // Day10.run();
-            // Day11.run();
+            Day11.run();
             // Day12.run();
             // Day13.run();
             // Day14.run();
